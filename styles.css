@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.Header{
+display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    width: auto;
+    height: 500px;
+}
