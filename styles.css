@@ -58,12 +58,12 @@ flex: 1;
     font-weight: bold;
 }
 .button{
-    background-color: darkcyan;
+    background-color:  #3882f6;
     padding: 16px;
     align-self: center;
 }
 button{
-    background-color: darkcyan;
+    background-color:  #3882f6;
     border: 0ch;
 }
 .middle{
@@ -72,11 +72,45 @@ button{
     align-content: center;
     padding: 16px;
     margin: 12px;
+    
 
 }
-.mainchar{
-    align-self: center;
+.imgtext{
+    max-width: 150px;
 }
+
+.middle >.Char> img{
+    height: 150px;
+    width: auto;
+    border-radius: 25px;
+    border: 12px;
+    border-color: #3882f6;
+
+}
+.MainChar{
+    align-self: center;
+    padding: 18px;
+    margin: 18px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.second{
+    background-color: grey;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Author{
+    align-self: flex-end;
+    font-weight: bold;
+    color: black;
+}
+
 a{
     color: white;
     text-decoration:none;
