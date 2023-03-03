@@ -40,6 +40,7 @@ flex: 1;
 
     flex-shrink: 1;
 }
+
 .portimg{
     display: flex;
     flex-shrink: 0;
@@ -89,7 +90,7 @@ flex: 1;
     color: #1f2937;
 }
 .second{
-    background-color: grey;
+    background-color:#e5e7eb;
     padding: 50px;
     color: white;
     display: flex;
@@ -113,8 +114,15 @@ padding: 32px;
 background-color: #3882f6;
 border-radius: 25px;
 color: white;
+max-width: 350px;
+align-self: center;
 }
 .inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
     padding: 5px;
     margin: 5px;
 }
@@ -123,10 +131,14 @@ color: white;
     
 }
 .button2> button{
-    border-radius: 25px;
-    border-color: white;
-    border-width: 5px;
+    border-radius: 10px;
+    border-color:white;
+    
+   
     align-self: center;
+    background-color: #3882f6;
+    padding: 10px;
+    margin: 10px;
 }
 .sign{
     font-size: 27px;
@@ -150,4 +162,17 @@ a{
 img {
     width: auto;
     height: 150px;
+}
+.Click{
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    border-color: transparent;
+    align-self: center;
+}
+.qoute{
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
 }
